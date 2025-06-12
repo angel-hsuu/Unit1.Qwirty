@@ -1,0 +1,26 @@
+nav{
+    display: flex;
+    align-items: center;
+    background-color: rgb(64, 84, 64);
+    text-align: start;
+}
+
+nav *{
+    margin: 1px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+a{
+    color: rgb(245, 246, 244);
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+}
+
+.navline{
+     border-left: 1px solid white;
+}
