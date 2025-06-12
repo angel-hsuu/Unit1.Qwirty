@@ -1,8 +1,10 @@
+/* Top Left Header */
 nav{
     display: flex;
     align-items: center;
     background-color: rgb(64, 84, 64);
     text-align: start;
+    justify-content: space-between;
 }
 
 nav *{
@@ -23,4 +25,57 @@ a{
 
 .navline{
      border-left: 1px solid white;
+}
+
+/* Top Right Header */
+.shoppingcart{
+    width: 20px;
+    height: auto;
+}
+
+.menubutton{
+    color: rgb(245, 246, 244);
+    background-color: rgb(64, 84, 64);
+    border: none;
+    font-size: 23px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+#myLinks {
+    display: none;
+    background-color: rgb(64, 84, 64);
+    border-radius: 4px;
+    flex-direction: column;
+    text-align: right;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    padding: 10px 25px
+}
+
+#myLinks :hover {
+    background-color: rgb(51, 62, 51);
+}
+
+#myLinks.show {
+    display: flex;
+}
+
+@media screen and (min-width: 600px) {
+    #myLinks {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .menubutton {
+        display: none;
+    }
+}
+}
+
+@media screen and (width > 600px){
+    .menubutton {
+        display: none;
+    }
 }

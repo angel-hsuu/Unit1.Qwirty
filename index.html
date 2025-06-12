@@ -9,12 +9,24 @@
 </head>
 <header>
     <nav>
-        <ul>
+        <div class="nav-left">
             <a href="#">Big Deals</a>
             <a href="#" class="navline">Top Brands</a>
             <a href="#" class="navline">Suggestions</a>
             <a href="#" class="navline">Help & Contact</a>
-        </ul>
+        </div>
+        <div class="nav-right">
+            <button class="menubutton" onclick="myFunction()">☰</button>
+            <div id="myLinks">
+                <a href="#login" class="navliner">Login/Sign Up</a>
+                <a href="#account" class="navliner">Account</a>
+                <a href="#shoppingcart" class="shoppingcarticon">
+                    <img src="shoppingcarticon.png" alt="shoppingcarticon" class="shoppingcart">
+             </a>
+            </div>
+            
+        </div>
+        
     </nav>
     <p class="brand">Qwirty</p>
 </header>
@@ -22,3 +34,9 @@
     
 </body>
 </html>
+<script>
+function myFunction() {
+  const x = document.getElementById("myLinks");
+  x.classList.toggle("show");
+}
+</script>
