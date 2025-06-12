@@ -18,7 +18,7 @@ nav *{
 
 a{
     color: rgb(245, 246, 244);
-    font-size: 15px;
+    font-size: 2.6vh;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-decoration: none;
 }
@@ -37,11 +37,11 @@ a{
     color: rgb(245, 246, 244);
     background-color: rgb(64, 84, 64);
     border: none;
-    font-size: 23px;
+    font-size: 5vh;
     cursor: pointer;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 670px) {
 #myLinks {
     display: none;
     background-color: rgb(64, 84, 64);
@@ -62,7 +62,7 @@ a{
     display: flex;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 670px) {
     #myLinks {
         display: flex;
         flex-direction: column;
@@ -74,7 +74,7 @@ a{
 }
 }
 
-@media screen and (width > 600px){
+@media screen and (width > 670px){
     .menubutton {
         display: none;
     }
