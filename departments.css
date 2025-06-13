@@ -1,0 +1,26 @@
+.departments {
+    justify-content: center;
+    list-style: none;
+    flex-direction: column;
+    margin: 1vh;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+.departments li {
+    color: whitesmoke;
+    padding: 1vh;
+    padding-right: 4vh;
+    margin: 1vh;
+    background-color:rgb(64, 84, 64);
+}
+
+.section-wrapper {
+    max-width: 95%;
+    margin: 0 auto;
+}
+
+.finance {
+    margin-bottom: 1vh;
+    border-radius: 4px;
+}

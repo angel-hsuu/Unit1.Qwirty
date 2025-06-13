@@ -4,6 +4,7 @@ body{
     background-color: rgb(237, 232, 226);
 }
 /* mobile version */
+
 .brand{
     display: flex;
     justify-content: center;
@@ -52,29 +53,5 @@ body{
     background-color: rgb(56, 57, 46);
     padding: 2vh;
     color: rgb(237, 232, 226);
-    margin: 1vh;
-}
-
-/* web version */
-/* .brand{
-font-size: 40px;
-color: rgb(62, 47, 47);
-padding-left: 1ch;
-}
-
-.headerbar{
-    display: flex;
-    align-items: center;
-    gap: 2ch;
-}
-.headerbar input{
-    width: 50vw;
-}
-
-.finance{
-    display: flex;
-    background-color: rgb(64, 84, 64);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: rgb(237, 232, 226);
-    padding: 3v;
-} */
+}

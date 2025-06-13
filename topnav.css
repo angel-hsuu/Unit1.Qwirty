@@ -1,5 +1,5 @@
 /* Top Left Header */
-nav{
+.TopHeader{
     display: flex;
     align-items: center;
     background-color: rgb(64, 84, 64);
@@ -7,9 +7,9 @@ nav{
     justify-content: space-between;
 }
 
-nav *{
+.TopHeader *{
     margin: 1px;
-    padding: 8px;
+    padding: 9px;
     display: flex;
     align-items: center;
 }
